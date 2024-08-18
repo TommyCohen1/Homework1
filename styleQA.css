@@ -1,0 +1,139 @@
+*{
+
+    text-align: right;
+    background: #111;
+    color: rgb(197, 197, 197);
+    font-family: sans-serif;
+    }
+    body{
+        padding-right: 70px;
+    }
+
+        .generalask{
+            padding-right: 30px;
+            padding-left: 30px;
+            list-style-type: disc;
+            line-height: 1.6;
+        
+}
+.exam{
+    width: 40%;
+}
+@media only screen and (max-width: 600px){
+    body{
+        text-align: center;
+        padding: 0px;
+    }
+    .elevator {
+        padding-top: 25px;
+        width: 369px;
+        height: 272px;
+        text-align: center;
+    }
+    .row1{
+        float: none;
+        text-align: center;
+
+    }
+    .lastask{
+        text-align: center;
+        float: none;
+
+    }
+    }
+div img{
+    width: 50%;
+    height: 70%;
+}
+
+.ask2{
+
+    font-size: 18px;
+}
+h1 h2 h3 h4 h5 p span{
+    font-family: sans-serif;
+    letter-spacing: 1.4rem;
+
+
+}
+
+h1{
+    padding-top: 20px;
+    padding-right: 30px;
+
+}
+
+h2{
+    font-family: 100;
+}
+h5{
+font-weight: bolder;
+font-size: 14px;
+font-weight: 200;
+
+}
+
+.row1{
+    float: right;
+    padding-right: 100px;
+    padding: 0;
+
+}
+ul{
+    list-style-type:num;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .row1{
+        width: 400px;
+    }
+    }
+
+
+.lastask{
+    font-size: 20px;
+    float: right;
+    padding-bottom: 40px;
+
+
+}
+
+.title1{
+    display: inline-block;
+}
+.title2 {
+    display: inline-block;
+background: repeating-radial-gradient(circle at 100% 100%, rgba(255, 190, 11, 0.5) 4%, rgba(255, 190, 11, 0.5) 8%, rgba(251, 86, 7, 0.5) 8%, rgba(251, 86, 7, 0.5) 12%, rgba(255, 0, 110, 0.5) 12%, rgba(255, 0, 110, 0.5) 16%, rgba(131, 56, 236, 0.5) 16%, rgba(131, 56, 236, 0.8) 20%, rgba(58, 134, 255, 0.5) 20%, rgba(58, 134, 255, 0.5) 24%), repeating-radial-gradient(circle at 0% 100%, rgba(255, 190, 11, 0.7) 4%, rgba(255, 190, 11, 0.9) 8%, rgba(251, 86, 7, 0.7) 8%, rgba(251, 86, 7, 0.9) 12%, rgba(255, 0, 110, 0.7) 12%, rgba(255, 0, 110, 0.9) 16%, rgba(131, 56, 236, 0.8) 16%, rgba(131, 56, 236, 0.8) 20%, rgba(58, 134, 255, 0.8) 20%, rgba(58, 134, 255, 0.8) 24%);
+  background-size: 250px 250px;
+  background-position: 0 0;
+  -webkit-animation: stripes 3s linear infinite;
+          animation: stripes 3s linear infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+@media only screen and (max-width: 900px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 6px;
+  }
+}
+
+@-webkit-keyframes stripes {
+  100% {
+    background-position: 250px 0, 250px 0, 100px 0;
+  }
+}
+
+@keyframes stripes {
+  100% {
+    background-position: 250px 0, 250px 0, 100px 0;
+  }
+}
